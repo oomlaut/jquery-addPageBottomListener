@@ -8,6 +8,8 @@ scrolling, but without the overhead of many of the other plugins.
 Usage
 -----
 
+The generic pattern is:
+
     $.addPageBottomListener({options}, callback);
 
 Attach a callback function to be fired once the bottom of the page has been scrolled to:
